@@ -145,57 +145,57 @@ char	*get_next_line(int fd)
 	}
 	return (result);
 }
-int main ()
-{
-	char *str;
+// int main ()
+// {
+// 	char *str;
 
-	int	fd;
-	fd = open("fd7.txt", O_RDONLY);
-	str = get_next_line(fd);
-	printf("\n %s", str);
-	free(str);
-	close(fd);
+// 	int	fd;
+// 	fd = open("fd7.txt", O_RDONLY);
+// 	str = get_next_line(fd);
+// 	printf("\n %s", str);
+// 	free(str);
+// 	close(fd);
 
-	fd = open("fd8.txt", O_RDONLY);
-	str = get_next_line(fd);
-	printf("\n %s", str);
-	free(str);
-	close(fd);
+// 	fd = open("fd8.txt", O_RDONLY);
+// 	str = get_next_line(fd);
+// 	printf("\n %s", str);
+// 	free(str);
+// 	close(fd);
 
-	fd = open("fd9.txt", O_RDONLY);
-	str = get_next_line(fd);
-	printf("\n %s", str);
-	free(str);
-	close(fd);
+// 	fd = open("fd9.txt", O_RDONLY);
+// 	str = get_next_line(fd);
+// 	printf("\n %s", str);
+// 	free(str);
+// 	close(fd);
 
-	fd = open("fd10.txt", O_RDONLY);
-	str = get_next_line(fd);
-	printf("\n %s", str);
-	free(str);
-	close(fd);
+// 	fd = open("fd10.txt", O_RDONLY);
+// 	str = get_next_line(fd);
+// 	printf("\n %s", str);
+// 	free(str);
+// 	close(fd);
 
-	fd = open("fd11.txt", O_RDONLY);
-	str = get_next_line(fd);
-	printf("\n %s", str);
-	free(str);
-	close(fd);
+// 	fd = open("fd11.txt", O_RDONLY);
+// 	str = get_next_line(fd);
+// 	printf("\n %s", str);
+// 	free(str);
+// 	close(fd);
 
-	fd = open("fd12.txt", O_RDONLY);
-	str = get_next_line(fd);
-	printf("\n %s", str);
-	free(str);
-	close(fd);
-	fd = open("fd14.txt", O_RDONLY);
-	str = get_next_line(fd);
-	printf("\n %s", str);
-	free(str);
-	close(fd);
+// 	fd = open("fd12.txt", O_RDONLY);
+// 	str = get_next_line(fd);
+// 	printf("\n %s", str);
+// 	free(str);
+// 	close(fd);
+// 	fd = open("fd14.txt", O_RDONLY);
+// 	str = get_next_line(fd);
+// 	printf("\n %s", str);
+// 	free(str);
+// 	close(fd);
 
-	fd = open("fd13.txt", O_RDONLY);
-	str = get_next_line(fd);
-	printf("\n %s", str);
-	free(str);
-	close(fd);
+// 	fd = open("fd13.txt", O_RDONLY);
+// 	str = get_next_line(fd);
+// 	printf("\n %s", str);
+// 	free(str);
+// 	close(fd);
 
-	return (0);
-}
+// 	return (0);
+// }
